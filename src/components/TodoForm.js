@@ -34,7 +34,7 @@ const TodoForm = ({onSubmit, edit}) => {
           className="todo-input edit"
           onChange={handleChange}
           ref={inputRef}
-          autocomplete="off"
+          autoComplete="off"
         />
         <button type="submit" className="todo-button edit">Update</button>
     </>) : (
@@ -47,7 +47,7 @@ const TodoForm = ({onSubmit, edit}) => {
           className="todo-input"
           onChange={handleChange}
           ref={inputRef}
-          autocomplete="off"
+          autoComplete="off"
         />
         <button type="submit" className="todo-button">Add</button>
     </>

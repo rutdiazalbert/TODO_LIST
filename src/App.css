@@ -145,3 +145,19 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: #161a2b;
+  height: 90px;
+  margin-top: 0px;
+
+}
+.header a {
+  text-decoration: none;
+  color: #fff
+}
