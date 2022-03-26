@@ -1,8 +1,8 @@
 import React, { useState} from 'react'
 import { RiCloseCircleLine } from 'react-icons/ri'
 import { TiEdit } from 'react-icons/ti'
-import TodoForm from './TodoForm'
-const Todo = ({todos, completeTodo, removeTodo, updateTodo}) => {
+import TodoForm from './TodoFormShopping'
+const TodoShopping = ({todos, completeTodo, removeTodo, updateTodo}) => {
     const [edit, setEdit] = useState({
         id: null,
         value: ''
@@ -38,4 +38,4 @@ if(edit.id) {
   ))
 }
 
-export default Todo
+export default TodoShopping

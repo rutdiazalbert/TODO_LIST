@@ -5,10 +5,10 @@ const Header = () => {
     <div>
         <header className="header">
 
-            <a href="/">COMPRA</a>
-            <a href="/">CASA</a>
-            <a href="/">FEINA</a>
-            <a href="/">ESTUDIS</a>
+            <a href="/">SHOPPING</a>
+            <a href="/housework">HOUSEWORK</a>
+            <a href="/work">WORK</a>
+            <a href="/studies">STUDIES</a>
 
         </header>
     </div>

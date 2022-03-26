@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const TodoForm = ({onSubmit, edit}) => {
+const TodoFormShopping = ({onSubmit, edit}) => {
   const [input, setInput] = useState(edit ? edit.value : '');
 
   const inputRef = useRef(null);
@@ -56,4 +56,4 @@ const TodoForm = ({onSubmit, edit}) => {
   );
 };
 
-export default TodoForm;
+export default TodoFormShopping;

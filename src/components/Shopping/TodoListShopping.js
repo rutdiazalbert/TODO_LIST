@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import Todo from './Todo'
-import TodoForm from './TodoForm'
+import Todo from './TodoShopping'
+import TodoForm from './TodoFormShopping'
 
-const TodoList = () => {
+const TodoListShopping = () => {
     const [todos, setTodos] = useState([])
 
     const addTodo = todo => {
@@ -39,11 +39,11 @@ const TodoList = () => {
     }
   return (
     <div>
-        <h1>TODO</h1>
+        <h1>SHOPPING TODO</h1>
         <TodoForm onSubmit={addTodo}/>
         <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
     </div>
   )
 }
 
-export default TodoList
+export default TodoListShopping
